@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(180, 42, 162);
+  overflow: hidden;
+  margin-left: 0;
+}
+nav {
+  background-color: lightgrey;
+  height: 12vh;
+  margin-top: 0;
+  width: 100vw;
+  z-index: -1;
+}
+#bluebox {
+  background-color: blue;
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-top: 1.3em;
+  margin-left: 1.3em;
+}
+#main {
+  background-color: white;
+  height: 20vh;
+  text-align: justify;
+  padding: 2.5em;
+}
+#blue {
+  background-color: blue;
+}
+#teal {
+  background-color: teal;
+}
+#green {
+  background-color: green;
+}
+#yellow {
+  background-color: yellow;
+  margin-bottom: 0;
+}
+.main_color {
+  width: 100vw;
+  height: 17vh;
+}
